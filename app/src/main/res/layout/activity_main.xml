@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.afsahulsyed.musicsender.MainActivity">
+
+    <Button
+        android:id="@+id/buttonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Discover"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@+id/buttonC" />
+
+    <Button
+        android:id="@+id/buttonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonD"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Connect" />
+
+    <Button
+        android:id="@+id/buttonData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/buttonD"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:text="Send Data" />
+
+    <Button
+        android:id="@+id/buttonM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/buttonData"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/buttonData"
+        android:layout_marginTop="30dp"
+        android:text="Send audio" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="Waiting...."
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/buttonM" />
+
+    <Button
+        android:id="@+id/buttonServer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonData"
+        android:layout_marginEnd="23dp"
+        android:layout_toStartOf="@+id/buttonM"
+        android:text="ReceiveServer" />
+
+</RelativeLayout>
